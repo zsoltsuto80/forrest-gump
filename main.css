@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('assets/hatter.jpg') no-repeat center center fixed;
+  background-size: contain;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+div {
+  width: 700px;
+  max-width: calc(100vw - 15px);
+  height: auto;
+  padding-top: 50px;
+  font-family: oswald;
+  font-size: 150%;
+}
+address {
+  text-align: right;
+}
+audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-timeline  {
+  display: none;
+}
+.flag-icon {
+  font-size: 150%;
+}
+
+audio {
+  width: 20%;
+}
